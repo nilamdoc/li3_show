@@ -8,6 +8,7 @@ Li3_show is a plugin, you can install it in your application as
     Libraries::add('li3_show');
     
 It will show the following columns:
+
 Collection     
 Fields 	
 Conditions 	
