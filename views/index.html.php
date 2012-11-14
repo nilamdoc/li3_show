@@ -28,7 +28,8 @@ foreach ($SQL as $s){
 	<td>
 	<? 
 	foreach ($s['query']['query']['$query'] as $key=>$val){
-//		print_r($key);
+		print_r($key);
+		echo ": ";
 		print_r($val);
 	}?>
 	</td>
