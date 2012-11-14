@@ -17,7 +17,6 @@ Dispatcher::applyFilter('_callable', function($self, $params, $chain) {
 			);
 			Data::append('queries', array($query));
 //			echo "<pre>";
-
 //			$GLOBALS['Show_SQL'] = $query['query'];
 //			print (SHOW_SQL);
 //			echo "</pre>";			

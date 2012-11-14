@@ -23,6 +23,9 @@ foreach ($SQL as $s){
 	<td><?php 
 	foreach ($s['query']['fields'] as $key=>$val){
 		print_r($key);
+		echo ": ";
+		print_r($val);
+		echo ", ";		
 	}
 	?></td>
 	<td>
@@ -31,11 +34,15 @@ foreach ($SQL as $s){
 		print_r($key);
 		echo ": ";
 		print_r($val);
+		echo ", ";		
 	}?>
 	</td>
 	<td><? 
 	foreach ($s['query']['query']['$orderby'] as $key=>$val){
 		print_r($key);
+		echo ": ";
+		print_r($val);
+		echo ", ";		
 	}?></td>
 	<td style="text-align:center"><?=$s['explain']['n']?></td>
 	<td style="text-align:center"><?=$s['query']['limit']?></td>	
