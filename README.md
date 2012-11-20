@@ -4,7 +4,7 @@ li3_show
 Shows all MongoDB queries at runtime for each page when it is loaded in your application.
 
 Installation
-=====
+====
 The installation process is simple, just place the source code in the libraries-directory and create a li3_show directory:
 
 $ cd /path/to/app/libraries
