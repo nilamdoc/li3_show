@@ -29,7 +29,7 @@ foreach ($SQL as $s){
 	}
 	?></td>
 	<td>
-	<? 
+	<?php
 	foreach ($s['query']['query']['$query'] as $key=>$val){
 		print_r($key);
 		echo ": ";
@@ -37,7 +37,7 @@ foreach ($SQL as $s){
 		echo ", ";		
 	}?>
 	</td>
-	<td><? 
+	<td><?php
 	foreach ($s['query']['query']['$orderby'] as $key=>$val){
 		print_r($key);
 		echo ": ";

@@ -1,4 +1,4 @@
-<?
+<?php
 use li3_show\extensions\data\Data;
 // Get the queries
 $GLOBALS['Show_SQL'] = '';
